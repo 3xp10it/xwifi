@@ -8,7 +8,7 @@
 2.need airport
     brew install airport
 
-3.nned aircrack-ng
+3.need aircrack-ng
     brew install aircrack-ng
 ```
 
