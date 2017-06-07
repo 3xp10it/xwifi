@@ -51,5 +51,6 @@ and are not responsible for any misuse or damage caused by this program.
   系统命令(os.system)要想多分支执行不同的系统命令最好用多进程不能多线程,因为如果某个分支中要执行的系统命令是阻塞式
   的如ping www.baidu.com而不是简单的自行终止的如echo 1,这样的阻塞式的系统命令用多线程来执行会无法达到目的,改成多进程
   就可以了,更多详情如下:
-  https://stackoverflow.com/questions/44402158/how-to-execute-different-system-commands-in-differrent-threads-with-python3
 ```
+
+<a href="https://stackoverflow.com/questions/44402158/how-to-execute-different-system-commands-in-differrent-threads-with-python3">link</a>
