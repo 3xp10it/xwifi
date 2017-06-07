@@ -16,7 +16,7 @@ assume no liability and are not responsible for any misuse or damage caused by t
 1.macOS[test with:macOS sierra 10.12.3/5]
 
 2.need airport
-    macOS系统自带,find / -name "airport"后要加入到path中
+    macOS sierra系统自带
 
 3.need aircrack-ng
     brew install aircrack-ng
