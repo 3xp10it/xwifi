@@ -1,6 +1,15 @@
 ## xwifi
 
-### 0x00 Requirement
+
+### Disclaimer
+
+```
+[!] legal disclaimer: Usage of xwifi.py for attacking targets without prior mutual consent is 
+illegal.It is the end user's responsibility to obey all applicable local, state and federal laws.Developers
+assume no liability and are not responsible for any misuse or damage caused by this program.
+```
+
+### Requirement
 
 ```
 1.macOS[test with:macOS sierra 10.12.3/5]
@@ -12,7 +21,7 @@
     brew install aircrack-ng
 ```
 
-### 0x01 About
+### About
 
 ```
 由于macOS下有2个缺陷:
@@ -22,7 +31,7 @@
 于是有了本工具,本工具可在新版本macOS上自动破解wifi,适用物理机装mac系统,理论上支持所有版本苹果系统
 ```
 
-### 0x02 Attention
+### Attention
 
 ```
 1.由于macOS下没有找到aireplay-ng的替代品,因此无法主动攻击,本工具采用的是不断sniff并自动检测不否抓到握手包并自动
