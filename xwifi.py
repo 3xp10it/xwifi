@@ -31,7 +31,7 @@ if re.search(r"not found", a, re.I):
     input("Please install ack first,eg.brew install ack,after you finished it,press anykey to continue.")
 a = get_string_from_command("airport")
 if re.search(r"not found", a, re.I):
-    input("Please install airport first,eg.brew install airport,after you finished it,press anykey to continue.")
+    print("add your airport to path,then run me again.")
 a = get_string_from_command("aircrack-ng")
 if re.search(r"not found", a, re.I):
     input("Please install aircrack-ng first,eg.brew install aircrack-ng,after you finished it,press anykey to continue.")

@@ -6,7 +6,7 @@
 1.macOS[test with:macOS sierra 10.12.3/5]
 
 2.need airport
-    brew install airport
+    macOS系统自带,find / -name "airport"后要加入到path中
 
 3.need aircrack-ng
     brew install aircrack-ng
