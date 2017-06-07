@@ -29,11 +29,11 @@
 破解
 
 2.抓到握手包后有两种破解方式:
-    a)aircrack-ng破解
-        eg.aircrack-ng -w ......./pass.txt -b 50:bd:5f:6e:3f:44 /tmp/*.cap
-        本工具中用这种方式破解
-    b)hashcat破解
-        要将cap文件转成hashcat支持的格式再用hashcat破解
-        1>将https://github.com/hashcat/hashcat-utils/releases里面的cap2hccapx.bin放到kali64(vm)下运行得到hccapx
-        2>然后再运行eg.hashcat -a 3 -m 2500 output.hccapx ?d?d?d?d?d?d?d?d
+  a)aircrack-ng破解
+      eg.aircrack-ng -w ......./pass.txt -b 50:bd:5f:6e:3f:44 /tmp/*.cap
+      本工具中用这种方式破解
+  b)hashcat破解
+      要将cap文件转成hashcat支持的格式再用hashcat破解
+      1>将https://github.com/hashcat/hashcat-utils/releases里面的cap2hccapx.bin放到kali64(vm)下运行得到hccapx
+      2>然后再运行eg.hashcat -a 3 -m 2500 output.hccapx ?d?d?d?d?d?d?d?d
 ```
