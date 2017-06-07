@@ -15,9 +15,10 @@
 
 # 目前只适用于macOS
 # test on:macOS sierra 10.12.5
+
 import time
 from exp10it import figlet2file
-figlet2file("xwifi",0,True)
+figlet2file("xwifi", 0, True)
 time.sleep(1)
 from exp10it import get_string_from_command
 from exp10it import get_all_file_name
@@ -32,7 +33,7 @@ if re.search(r"not found", a, re.I):
 
 a = get_string_from_command("airport")
 if re.search(r"not found", a, re.I):
-    a=get_string_from_command('''find /System/Library -name "airport" | ack "^/.*/airport$"''')
+    a = get_string_from_command('''find /System/Library -name "airport" | ack "^/.*/airport$"''')
     os.system("ln -s %s /usr/local/bin/airport" % a)
     #print("add your airport to path,then run me again.")
 a = get_string_from_command("aircrack-ng")
@@ -68,7 +69,8 @@ else:
             if re.search(r"(no data)|(No valid)", content, re.I) or content == "":
                 print("I am sniffing a handshake but no one logins the wifi,so you have to wait,keep me running...")
 
-                sniffPID = get_string_from_command("ps -a | ack '^\d+(?=.*\d+:\d+\.\d+\sairport.*sniff)' -o")
+                sniffPID = get_string_from_command(
+                    "ps -a | ack '\d+(?=\s+\S+\s+\d+:\d+\.\d+\sairport.*sniff)' -o")
                 os.system("kill %s" % sniffPID)
                 os.system("rm /tmp/*.cap")
                 p1 = Process(target=worker1, args=())
