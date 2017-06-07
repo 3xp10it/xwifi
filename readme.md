@@ -4,8 +4,10 @@
 
 ```
 1.macOS[test with:macOS sierra 10.12.3/5]
+
 2.need airport
     brew install airport
+
 3.nned aircrack-ng
     brew install aircrack-ng
 ```
@@ -25,6 +27,7 @@
 ```
 1.由于macOS下没有找到aireplay-ng的替代品,因此无法主动攻击,本工具采用的是不断sniff并自动检测不否抓到握手包并自动
 破解
+
 2.抓到握手包后有两种破解方式:
     a)aircrack-ng破解
         eg.aircrack-ng -w ......./pass.txt -b 50:bd:5f:6e:3f:44 /tmp/*.cap
