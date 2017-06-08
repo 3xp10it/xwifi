@@ -49,7 +49,7 @@ if not match:
     print("Sorry,I can not find you channel,modify your code")
 else:
     channel = match.group(1)
-    print("Your bssid's channel is %s" % channel)
+    print("Your bssid's channel is %s,I will sniff on this channel,\nwhen you run me next time,you can try to crack other bssid with the same channel directly if you want." % channel)
     interface = input("Please input your network interface,if you don't know,press enter to continue:>")
 
     def worker1():
