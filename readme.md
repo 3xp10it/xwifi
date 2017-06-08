@@ -20,6 +20,9 @@ assume no liability and are not responsible for any misuse or damage caused by t
 
 3.need aircrack-ng
     brew install aircrack-ng
+
+4.need ack
+    brew install ack
 ```
 
 ### About
