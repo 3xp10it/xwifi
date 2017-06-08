@@ -82,7 +82,7 @@ else:
             else:
                 break
         os.system("rm /tmp/forhandshakedict.txt")
-        sniffPID = get_string_from_command("ps -a | ack '^\d+(?=.*\d+:\d+\.\d+\sairport.*sniff)' -o")
+        sniffPID = get_string_from_command("ps -a | ack '\d+(?=\s+\S+\s+\d+:\d+\.\d+\sairport.*sniff)' -o")
         os.system("kill %s" % sniffPID)
 
     p1 = Process(target=worker1, args=())
