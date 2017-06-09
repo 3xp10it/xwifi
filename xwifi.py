@@ -17,6 +17,8 @@
 # test on:macOS sierra 10.12.5
 
 import time
+import os
+os.system("pip3 install exp10it -U --no-cache")
 from exp10it import figlet2file
 figlet2file("xwifi", 0, True)
 time.sleep(1)
@@ -24,7 +26,6 @@ from exp10it import get_string_from_command
 from exp10it import get_all_file_name
 from multiprocessing import Process
 import re
-import os
 import time
 os.system("echo testfor_handshake > /tmp/forhandshakedict.txt")
 a = get_string_from_command("ack")
