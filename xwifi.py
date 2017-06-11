@@ -18,10 +18,7 @@
 
 import time
 import os
-try:
-    os.system("pip3 install exp10it -U --no-cache")
-except:
-    pass
+os.system("pip3 install exp10it -U --no-cache")
 from exp10it import figlet2file
 figlet2file("xwifi", 0, True)
 time.sleep(1)
