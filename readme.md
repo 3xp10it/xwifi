@@ -1,6 +1,4 @@
-
 ## xwifi
-
 
 ### Disclaimer
 
@@ -33,6 +31,12 @@ assume no liability and are not responsible for any misuse or damage caused by t
     b.新版本的macOS还没找到可利用的wifi破解工具(https://github.com/IGRSoft/KisMac2支持老mac系统)
 
 于是有了本工具,本工具可在新版本macOS上自动破解wifi,适用物理机装mac系统,理论上支持所有版本苹果系统
+
+支持两种破解方法
+a)aircrack-ng基于字典的破解
+b)reaver基于wps的破解
+
+可同时运行两个python3 xwifi.py实例,一个选aircrack-ng破解方式,一个选reaver破解方式
 ```
 
 ### Attention
