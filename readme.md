@@ -8,6 +8,12 @@ It is the end user's responsibility to obey all applicable local, state and fede
 assume no liability and are not responsible for any misuse or damage caused by this program.
 ```
 
+### Usage
+
+```
+python3 xwifi.py
+```
+
 ### Requirement
 
 ```
