@@ -18,13 +18,13 @@ python3 xwifi.py
 + 1.macOS[test with:macOS sierra 10.12.3/5]
 
 + 2.need airport  
-    macOS sierra系统自带
+macOS sierra系统自带
 
 + 3.need aircrack-ng  
-    brew install aircrack-ng
+brew install aircrack-ng
 
 + 4.need ack  
-    brew install ack
+brew install ack
 
 
 ### About
