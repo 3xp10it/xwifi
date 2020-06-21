@@ -5,6 +5,8 @@
 
 [!] legal disclaimer: Usage of xwifi.py for attacking targets without prior mutual consent is illegal.It is the end user's responsibility to obey all applicable local, state and federal laws.Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
+[!] 法律免责声明：未经事先相互同意，使用xwifi.py攻击目标是非法的。使用本程序的最终用户有责任遵守所有适用的地方、国家法律。开发人员对本程序造成的任何误用、滥用、非法使用不承担任何责任。
+
 
 ### Usage
 
